@@ -41,3 +41,6 @@ index = vowels.index('e')
 print(index)
 
 # Output: 1
+
+check = int("asd")
+print("int",check)
