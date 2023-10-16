@@ -1,4 +1,5 @@
 """Test"""
+import math
 def test_set():
     """Test Set add by Loop"""
     test_1 = ["1", "2", "3", "4"]
@@ -21,3 +22,22 @@ def main():
         test += i
     print(test)
 main()
+
+age = 22
+if age in range(17, 22+1):
+    print("True")
+
+
+out_entropy = int(math.log2(26**(len("incorrect"))))
+print(out_entropy)
+
+
+# tuple containing vowels
+vowels = ('ea', 'e', 'i', 'o', 'u')
+
+# index of 'e' in vowels
+index = vowels.index('e')
+
+print(index)
+
+# Output: 1
