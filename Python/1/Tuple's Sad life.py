@@ -15,3 +15,4 @@ def sad():
             print(out.index(want), "",end="")
         print()
 sad()
+
