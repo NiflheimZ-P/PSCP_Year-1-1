@@ -1,11 +1,8 @@
-"""RemoveTag"""
-def tag():
+"""Ejudge"""
+def main():
     """RemoveTag"""
-    test = str(input())
-    out = []
-    for i in test():
-        if i == ">":
-            
-
-
-tag()
+    word = input().replace("<", "$<").replace(">", ">$").split("$")
+    ans = list(filter(lambda x, ok="<": ok not in x, word))
+    answer = ' '.join(ans)
+    print(answer.split())
+main()
